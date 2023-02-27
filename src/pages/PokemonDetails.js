@@ -1,10 +1,10 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
-import { isPokemonFavoriteByIdType, pokemonType } from '../types';
+import FavoriteInput from '../components/FavoriteInput';
 import Pokemon from '../components/Pokemon';
 import PokemonData from '../components/PokemonData';
-import FavoriteInput from '../components/FavoriteInput';
+import { isPokemonFavoriteByIdType, pokemonType } from '../types';
 
 import './pokemon-details.css';
 
