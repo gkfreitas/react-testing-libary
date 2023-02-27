@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from '../renderWithRouter';
 
-describe('Testes para a o About', () => {
+describe('Testes para a o componente App', () => {
   it('Verica se o texto dos links estão certos', () => {
     renderWithRouter(<App />);
 
